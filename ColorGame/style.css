@@ -1,0 +1,47 @@
+body {
+	background-color: #4A4F51;
+}
+h1,h2,h3,h4,h5{
+	font-family: 'Lucida Console';
+	font-size: 28pt;
+}
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 1em;
+}
+figure{
+	margin: 0;
+	padding: 0;
+}
+.square {
+	background-color: #B2B0B5;
+	height:200px;
+	border: 10px solid #DEDEDE;
+	border-radius: 10px;
+}
+
+.title {
+	width: 100%;
+	margin: 10px auto;
+	background-color: rgb(50,50,50);
+	padding: 10px;
+	text-align: center;
+	border: 1px solid rgb(80,80, 80);
+	color: #A6C2C2;
+}
+.restart {
+	width: 200px;
+}
+#message{
+ background-color: #4A4F51;
+}
+img {
+	width: 100px;
+	opacity: 0.6;
+	position: fixed;
+	top: 20px;
+	right: 20px;
+}
