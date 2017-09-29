@@ -2,14 +2,20 @@
 <html>
 <head>
 	<title>Juozas Rastenis</title>
+	<!-- meta tags -->
 	<meta charset="UTF-8">
+  	<meta name="description" content="Interactive design of todays web">
+  	<meta name="keywords" content="Front-end,developer,UX,CSS,JavaScript">
+  	<meta name="author" content="Juozas Rastenis">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ 	 <!-- style sheets -->
 	<link rel="stylesheet" type="text/css" href="stylesheet/styleNew.css">
 	<link rel="stylesheet" href="stylesheet/popOut.php">
+	<link rel="stylesheet" href="stylesheet/navigation.css">
 	
 	<!-- fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-	<link rel="icon" type="image/png" href="img/jozs.png"/>
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+	<link rel="icon" type="image/png" href="img/juozas.svg"/>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 	<!-- Plugins -->
@@ -31,17 +37,39 @@
 	 classes "col span_1_of_2"
 	 		 "section, group" is for columns that use CSS GRID LAYOUD -->
 <header>
-	<nav id="nav">
-		<a id="socialmedia" href="#socialmediaSection">intro</a>
-		<a id="technology" href="#technologySection">tech</a>
-		<a id="myfont" href="#myfontSection">font</a>
-		<a id="websites" href="#websitesSection">learning</a>
-		<a id="introduction" href="#introductionSection">about</a>
-		<a id="contact" href="#contactSection">contact</a>
+    <nav>
+      <div class="burger-button">
+          <span class="burger-top"></span>
+          <span class="burger-middle"></span>
+          <span class="burger-bottom"></span>
+      </div>
+       <div class="burger-menu">
+        <ul>
+          <li>
+            <a id="socialmedia" class="peper" href="#socialmediaSection">Projects</a>
+          </li>
+          <li>
+            <a id="technology" class="peper" href="#technologySection">Technology</a>
+          </li>
+          <li>
+            <a id="myfont" class="peper" href="#myfontSection">My font</a>
+          </li>
+          <li>
+            <a id="websites" class="peper" href="#websitesSection">Education</a>
+          </li>
+          <li>
+            <a id="introduction" class="peper" href="#introductionSection">About me</a>
+          </li>
+          <li>
+            <a id="contact" class="peper" href="#contactSection">Contact</a>
+          </li>
+        <ul>
+      </div>
+    </nav>
 </header>
 
 <article id="socialmediaSection" class="column column1 column-photo">
-<figure class="ember"><img src="img/jozs.png" alt="" style="margin-left: -15px;"></figure>
+<figure class="ember"><img src="img/juozas.svg" alt="" style="max-width: 350px;"></figure>
 	<h3 id="title">Welcome</h3>
 			<article class="childElement-column-photo">
 				<h5 class="title">Projects I've put my hands on</h5>
@@ -105,7 +133,7 @@
 
 <figure id="technologySection" class="column column2 sub-section" style="overflow: hidden">
 	<h3 id="title">Technologies</h3>
-		<div class="carousel" data-flickity='{ "autoPlay": 1500, "contain": true}'>
+		<div class="carousel" data-flickity='{"autoPlay": 1500, "contain": true}'>
 		  		<img src="img/snap.svg" class="carousel-cell">
 		  		<img src="img/flicon.png" class="carousel-cell">
 		  		<img src="img/slackicon.png" class="carousel-cell">
@@ -199,31 +227,16 @@
 
 <?php include 'php/popoutstudiesmodule.php'; ?>
 
-<footer id="footer" class="column column8" style="text-align: left;">&copy 2 0 1 7 Rastenis<br><br><br>
+<footer id="footer" class="column column8" style="text-align: left;"><p>&copy 2 0 1 7 Rastenis</p><br><br><br>
 </footer>
 
 <script src="js/font.js"></script>
 <script src="js/popOut.js"></script>
-<script src="owlcarousel/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- jQuery BELOW mandatory-->
-<script src="owlcarousel/owl.carousel.min.js"></script>
-<script src="js/carouselSettings"></script>
 <script src="js/flow.js"></script>
 <script type="text/javascript">
-var prev = 0;
-var $window = $(window);
-var nav = $('nav');
-
-$window.on('scroll', function(){
-  var scrollTop = $window.scrollTop();
-  nav.toggleClass('hidden', scrollTop > prev);
-  prev = scrollTop;
-});
-</script>
-<script type="text/javascript">
 	function main() {
-
   $('.displaySketch').on('click', function(){
     $('.span_2_of_2').slideToggle(400);
   })
@@ -231,7 +244,14 @@ $window.on('scroll', function(){
 
 $(document).ready(main);
 </script>
-
+<script type="text/javascript">
+	$( document ).ready(function() {
+   	$(".burger-button").click(function(){
+    $(".burger-button").toggleClass("active");
+    $(".burger-menu").slideToggle();
+   });
+});
+</script>
 </body>
 
 </html>

@@ -11,11 +11,12 @@
 }
 
 a {
-	color: rgba(255,255,255,0.8);
+	color: #E6F1F5;
 	text-decoration: none;
 	border-bottom: 1px solid #d4d4d4;
 	cursor:pointer;
 }
+
 a:hover {
 	color: rgba(255,255,255,0.4);
 }
@@ -31,7 +32,6 @@ li {
 
 body{
 	-webkit-transition: 3s;
-	background-color: rgb(50,50,50);
 }
 
 #introductionSection{
@@ -51,7 +51,9 @@ p, a {
 	font-size: 12.5pt;
 	letter-spacing: 0.8px;
 	line-height: 170%;
+	color: #E6F1F5;
 	}
+
 @font-face {
 font-family: "ConsolidationForTitles";
 src: 
@@ -108,6 +110,7 @@ input, .input{
 .button {
 	background: rgba(255,255,255,0.1);
 	border: 2px solid rgba(0,0,0,0.3);
+	border-radius: 5px;
 	font-size: 15pt;
 	font-weight: bold;
 	padding: 10px;
@@ -116,107 +119,44 @@ input, .input{
 	background: rgba(0,0,0,0.1);
 	transition-duration: 90ms;
 }
-.consolidationForTitles{
-	font-family: 'ConsolidationForTitles';
-	font-size: 50pt;
-
-}
 
 /*******************************************************************/ 
 /* 					       Menu Navigation 							/
 /*******************************************************************/
-
-nav {
-	text-align: center;
-	width: 100%;
-	background-color: rgb(84, 80, 84);
-	padding-top: 6px;
-	padding-bottom:6px;
-	position: fixed;
-	top: 0;
-	z-index: 2;
-	border-top: 2px solid rgba(255,255,255,0.4);
-	-webkit-transition-timing-function:1s ease-in-out;
-}
-
-nav a {
-	color: white;
-	text-decoration: none;
-	margin-left: 2%;
-	margin-right: 2%;
-	font-size: 11pt;
-	font-family: 'Open Sans';
-}
-nav a:hover {
-	color: white;
-	opacity: 0.5;
-}
-
+/* there's a separate file */
 /*******************************************************************/
 /* 					       L a Y O u T  							/
 /*******************************************************************/
 .column {width: 100%;margin: 0 auto;
 	padding: 10px;position: relative;
-	box-shadow: 5px 5px 5px 2px black;}
+	/*box-shadow: 5px 5px 5px 2px black;*/}
 
-.column1{
-  background: radial-gradient(ellipse farthest-corner at 0 bottom , rgb(93, 92, 95), rgba(0, 0, 0, 0.1) 100%) rgb(37, 37, 39);
+.column1, .column3, .column5{
+ background-color: #e2e2e2;
 }
-.column3{
-	background: radial-gradient(ellipse at top left, rgb(139, 145, 150) 0%,rgb(52, 60, 70) 57%);
-}
-.column5{
-	background: linear-gradient(to right bottom, rgb(153, 133, 165), rgb(29, 24, 62));
-}
-.column7{
-	background-image: url("../pictures/img4opacity30.png"); 
-}
-#myfontSection > .childElement-column-photo{
-	background-color: rgb(73, 81, 90);
-}
-#introductionSection > .childElement-column-photo{
-	background-color: rgb(103, 83, 125);
-}
-#technologySection{
-	background: rgb(83,82,85); /* Old Browsers */
-background: -webkit-linear-gradient(top,rgb(83,82,85),rgb(52,60,70)); /*Safari 5.1-6*/
-background: -o-linear-gradient(top,rgb(83,82,85),rgb(52,60,70)); /*Opera 11.1-12*/
-background: -moz-linear-gradient(top,rgb(83,82,85),rgb(52,60,70)); /*Fx 3.6-15*/
-background: linear-gradient(to bottom, rgb(83,82,85), rgb(52,60,70)); /*Standard*/
-}
-#websitesSection{
-background: rgb(52, 60, 70); /* Old Browsers */
-background: -webkit-linear-gradient(top,rgb(52, 60, 70),rgb(101,85,128)); /*Safari 5.1-6*/
-background: -o-linear-gradient(top,rgb(52, 60, 70),rgb(101,85,128)); /*Opera 11.1-12*/
-background: -moz-linear-gradient(top,rgb(52, 60, 70),rgb(101,85,128)); /*Fx 3.6-15*/
-background: linear-gradient(to bottom, rgb(52, 60, 70), rgb(101,85,128)); /*Standard*/
-}
-#contactSection{
-background: rgb(103,83,125); /* Old Browsers */
-background: -webkit-linear-gradient(top,rgb(103,83,125),rgba(165, 84, 0, 0.66)); /*Safari 5.1-6*/
-background: -o-linear-gradient(top,rgb(103,83,125),rgba(165, 84, 0, 0.66)); /*Opera 11.1-12*/
-background: -moz-linear-gradient(top,rgb(103,83,125),rgba(165, 84, 0, 0.66)); /*Fx 3.6-15*/
-background: linear-gradient(to bottom, rgb(103,83,125), rgba(165, 84, 0, 0.66)); /*Standard*/
-}
+
 .column-photo {
 	/* width: 100%; not needed because it's 100% stock*/
 	background-size: scroll;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	color: rgba(255,255,255,0.8);
-	padding-top: 5%;
-	padding-bottom: 5%;-webkit-box-shadow: inset -1px -1px 59px 7px rgba(36,29,36,1);
+	color: #E6F1F5;
+	padding-top: 9%;
+	padding-bottom: 9%;/*-webkit-box-shadow: inset -1px -1px 59px 7px rgba(36,29,36,1);
 -moz-box-shadow: inset -1px -1px 59px 7px rgba(36,29,36,1);
-box-shadow: inset -1px -1px 59px 7px rgba(36,29,36,1);
+box-shadow: inset -1px -1px 59px 7px rgba(36,29,36,1);*/
 }
-
+.sub-section #title {
+	color: #E6F1F5;
+}
 .sub-section {
-background-color: rgb(114, 114, 114);
+background-color: #475D88;
 color: rgba(255,255,255,0.8);
-border-radius: 5px;
--webkit-box-shadow: -5px 14px 50px 5px rgba(0,0,0,0.75);
+padding-bottom: 1%;
+padding-top: 1%;
+/*-webkit-box-shadow: -5px 14px 50px 5px rgba(0,0,0,0.75);
 -moz-box-shadow: -5px 14px 50px 5px rgba(0,0,0,0.75);
-box-shadow: -5px 14px 50px 5px rgba(0,0,0,0.75);
+box-shadow: -5px 14px 50px 5px rgba(0,0,0,0.75);*/
 -webkit-transition: 4s;
 padding: 30px;
 text-align: center;
@@ -233,14 +173,14 @@ text-align: center;
 .childElement-column-photo{
 	max-width: 800px;
 	margin:0 auto;
-	background-color: rgb(114, 114, 114);
+	background-color: #5f5f5b;
 	padding: 15px;
 	margin-top: 4%;
 	border-radius: 2px;
 	color: rgba(255,255,255,0.8);
-	-webkit-box-shadow: 9px 13px 58px -3px rgba(0,0,0,0.42);
+/*	-webkit-box-shadow: 9px 13px 58px -3px rgba(0,0,0,0.42);
 -moz-box-shadow: 9px 13px 58px -3px rgba(0,0,0,0.42);
-box-shadow: 9px 13px 58px -3px rgba(0,0,0,0.42);
+box-shadow: 9px 13px 58px -3px rgba(0,0,0,0.42);*/
 }
 .childElement-column-photo > p {
 	margin: 7px;
@@ -253,13 +193,10 @@ box-shadow: 9px 13px 58px -3px rgba(0,0,0,0.42);
 	margin-top: 50px;
 	overflow:hidden;}
 
-
 /*******************************************************************/
 /* 					       G r i d F l e x  						/
 /*******************************************************************/
 /*  SECTIONS  */
-
-
 /*  COLUMN SETUP  */
 .col {
 	display: block;
@@ -308,8 +245,9 @@ display: none;
 /*******************************************************************/
 .title {
 	letter-spacing: 2px;
+	border-radius: 2px;
 	text-align: center;
-	background-color: rgba(1,1,1,0.1);
+	background-color: rgba(68, 171, 140, 0.62);
 	padding:10px;
 	font-weight: normal;}
 
@@ -317,6 +255,7 @@ display: none;
 	text-align: center;
 	font-size: 35pt;
 	font-weight: 500;
+	color: #60605c;
 }
 /*******************************************************************/
 /* 					    P l u g i n s	 		  					/
@@ -328,8 +267,8 @@ display: none;
 .carousel-cell {
   width: 150px;
   height: 150px;
-  margin-right: 5%;
-  border-radius: 5px;
+  margin-right: 8%;
+  border-radius: 8px;
   counter-increment: carousel-cell;
 }
 
@@ -342,21 +281,22 @@ display: none;
   font-size: 80px;
   color: white;
 }
-
+.flickity-viewport{
+	border-right: 2px solid #E6F1F5;
+	border-left: 2px solid #E6F1F5;
+}
 
 /*******************************************************************/
 /* 					    F o o T e r		 		  					/
 /*******************************************************************/
-footer {
-	text-align: center;
-	background-color: rgba(82, 52, 21, 0.7);
+footer{
+	background-color: #4F4F4E;
 }
 /*******************************************************************/
 /* 					   		 E x t r a 	 		  					/
 /*******************************************************************/
-.bgtext { position: relative;}.bgtext:after {content: "Drag me";font-family: 'consolidationForTitles'; font-size: 20pt;color: rgba(255,255,255,0.3);position: absolute;top: 40%;left: 47%; z-index: -1;}
 #textDisplay {
-font-family: 'ConsolidationForTitles';font-size: 90pt;transition-duration: 1s;word-spacing: 20px;font-weight: bold;margin: 2px;border: 1px solid rgba(255,255,255,0.42);color: rgba(255,255,255,0.8);word-wrap: break-word;}
+font-family: 'ConsolidationForTitles';font-size: 90pt;transition-duration: 1s;word-spacing: 20px;font-weight: bold;margin: 2px;color: rgba(255,255,255,0.8);word-wrap: break-word;}
 .icon {
 	width: 50px;
 }
@@ -366,9 +306,6 @@ font-family: 'ConsolidationForTitles';font-size: 90pt;transition-duration: 1s;wo
 
 @media only screen and (max-width: 720px) {
 .span_2_of_2, .span_1_of_2 { width: 100%; margin-left: 0; margin-right: 0; }
-nav a {
-	font-size: 14pt;
-	}
 
 #textDisplay {
 font-family: 'ConsolidationForTitles';
@@ -376,9 +313,15 @@ font-size: 40pt;
 word-spacing: 20px;
 font-weight: bold;
 margin: 2px;
-border: 1px solid rgba(255,255,255,0.2);
 }
 .childElement-sub-section{
 	margin-left: 2%;
+}
+.carousel-cell {
+  width: 100px;
+  height: 100px;
+  margin-right: 5%;
+  border-radius: 8px;
+  counter-increment: carousel-cell;
 }
 }

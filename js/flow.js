@@ -1,12 +1,13 @@
 $(document).ready(function(){
-	setBindings();
-});
-function setBindings() {
-	$("nav a").click(function (e){
+	$('.peper').click(function(e){
+
+		var linkHref = $(this).attr('href');
+
+		$('html, body').animate({
+			scrollTop: $(linkHref).offset().top
+		});
+
 		e.preventDefault();
-		var plusSection = e.currentTarget.id+"Section";
-		$("html body").animate({
-			scrollTop: $("#" + plusSection).offset().top + (-50)
-		}, 800)
-	})
-}
+
+	});
+});
