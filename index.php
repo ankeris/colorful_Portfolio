@@ -69,7 +69,7 @@
 </header>
 
 <article id="socialmediaSection" class="column column1 column-photo">
-<figure class="ember"><img src="img/juozas.svg" alt="" style="max-width: 350px;"></figure>
+<figure class="ember"><img src="img/juozas.svg"></figure>
 	<h3 id="title">Welcome</h3>
 			<article class="childElement-column-photo">
 				<h5 class="title">Projects I've put my hands on</h5>
@@ -79,10 +79,10 @@
 				<ul class="projectsList">
 					<li><p><a target="_blank" href="http://jonas-k.dk/TrainingWheel/index.php">"Training Wheel"</a> - Web Based Application, different approach to sports.</p></li>
 					<li><p><a href="http://vaibas.lt/" target="_blank">Vaibas</a> - Wedding film production.</p></li>
-					<li><p><a href="" target="_blank">Parlamento Studijos</a> - near future CMS needs to be added.</p></li>
-					<li><p><a href="ColorGame/color_game.html" target="_blank">Color Guess</a> - a little rgb game.</p></li>
-					<li><p><a href="https://github.com/ankeris/different_Portfolio" target="_blank">This website</a> - itself, is on github.</p></li>
-					<li><p><a href="" target="_blank">Grundfos</a> - globally wide pump manufacturer. (doing project now)</p></li>
+					<li><p><a href="Parlamentostudijos/index.php" target="_blank">Parlamento Studijos</a> - near future CMS needs to be added.</p></li>
+					<li><p><a href="ColorGame/Color_game.html" target="_blank">Color Guess</a> - a little rgb game.</p></li>
+					<li><p><a href="https://github.com/ankeris/colorful_Portfolio" target="_blank">This website</a> - itself, is on github.</p></li>
+					<li><p><a href="http://www.grundfos.com/products/download-marketing-material.html" target="_blank">Grundfos</a> - globally wide pump manufacturer. (doing project now)</p></li>
 					<li><p><a href="" target="_blank">In progress. . .</a> - some more stuff to come.</p></li>
 					<li><a href=""></a></li>
 				</ul>
@@ -153,7 +153,7 @@
 	<h3 id="title">Font</h3>
 		<div class="childElement-column-photo">
 			<summary><h2 class="title">&copy Consolidation For Titles</h2></summary>
-			<p>I am not a typographer and not even close but I always thought it would be interesting to develop a typeface. While building this website I put the finishing touches to this font and launched it. While browsing this website you can notice the big titles that are my font.<br>This specific font is created <b>only for titles</b>, it is not a good typeface for reading.<br>Contains only capital letters. No numbers or symbols.
+			<p>I am not a typographer and not even close but I always thought it would be interesting to develop a typeface. While building this website I put the finishing touches to this font and launched it.<br>This specific font is created <b>only for titles</b>, it is not a good typeface for reading.<br>Contains only capital letters. No numbers or symbols.
 			<h4 class="title" >Try my font, write your name!</h4>
 			<input id="textInput" type="text" name="" maxlength="80" placeholder="name, text, etc.." style="margin: 2%; width: 90%;">
 			<p id="textDisplay"></p>
@@ -183,8 +183,8 @@
 		<div class="childElement-column-photo">
 			<h5 class="title">bio</h5>
 			<p>
-			Second year "Multimedia Design and Communication" student from Aarhus, Denmark.<br>
-			Mainly interested in user experience, frontend developement and subjects that relate and add up to it. 
+			Second year "Multimedia Design and Communication" student living in Aarhus, Denmark.<br>
+			Mainly interested in user experience, frontend developement and subjects that relate and add up to it.
 			</p>
 		</div>
 		<div class="childElement-column-photo">
@@ -197,7 +197,7 @@
 		</div>
 		<div class="childElement-column-photo">
 			<h5 class="title">what's this?</h5>
-			<p>Slight digital visualization to describe my personal appearance and fashion towards multimedia, design and web.</p>
+			<p>Besides showing some of my work, I have coded this website to visualize my fashion towards design and web.</p>
 		</div>
 	<!-- <object data="Uzsipisimas.html" type="" id="animation"></object> -->
 </section>
