@@ -73,7 +73,7 @@
 	<h3 id="title">Welcome</h3>
 			<article class="childElement-column-photo">
 				<h5 class="title">Projects I've put my hands on</h5>
-				<p>From 2016 I have started doing multimedia related projects in my school. Now after gaining some knowledge I mainly specify in frontend developement.</p>
+				<p>From 2016 I have started doing multimedia related projects. Now after gaining some knowledge I mainly specify in front-end developement.</p>
 				<figure style="text-align: center;"><img src="img/web.png" class="icon"></figure>
 				
 				<ul class="projectsList">
