@@ -103,7 +103,7 @@
 		<span class="col span_1_of_2">
 			<div class="childElement-column-photo">
 					<p>1. Bouncing Bubble</p>
-						<iframe height='332' scrolling='no' title='xXxBxo' src='//codepen.io/ankeris/embed/xXxBxo/?height=332&theme-id=dark&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/ankeris/pen/xXxBxo/'>xXxBxo</a> by Juozas Rastenis (<a href='https://codepen.io/ankeris'>@ankeris</a>) on <a href='https://codepen.io'>CodePen</a>.
+						<iframe height='332' scrolling='no' title='xXxBxo' src='//codepen.io/ankeris/embed/preview/xXxBxo/?height=332&theme-id=dark&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/ankeris/pen/xXxBxo/'>xXxBxo</a> by Juozas Rastenis (<a href='https://codepen.io/ankeris'>@ankeris</a>) on <a href='https://codepen.io'>CodePen</a>.
 						</iframe>
 			</div>
 			<div class="childElement-column-photo">
