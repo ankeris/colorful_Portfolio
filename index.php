@@ -144,6 +144,7 @@
 		  		<img src="img/aiicon.png" class="carousel-cell">
 		  		<img src="img/chromeicon.png" class="carousel-cell">
 		  		<img src="img/p5.png" class="carousel-cell">
+		  		<img src="img/node.png" class="carousel-cell">
 		</div>
 </figure>
 

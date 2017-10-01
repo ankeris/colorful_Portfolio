@@ -261,12 +261,13 @@ display: none;
 /* 					    P l u g i n s	 		  					/
 /*******************************************************************/
 .carousel {
-	margin: 5%;
+	max-width: 800px;
+	margin: 20px auto;
 }
 
 .carousel-cell {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   margin-right: 10%;
   border-radius: 8px;
   counter-increment: carousel-cell;
